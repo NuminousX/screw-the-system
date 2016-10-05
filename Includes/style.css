@@ -1,0 +1,255 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+p {
+  color: #fff;
+  font-size: 14px;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  font-family: calibri
+}
+
+/*------------------Holds all the style elements for the navigation------------------*/
+.navigation {
+  text-align: center;
+  padding: 10px 10px;
+  background-color: rgba(0,0,0,1);
+  
+}
+
+.navigation ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+  
+  
+}
+.navigation li  {
+  display: inline;
+   padding: 15px;
+  font-size: 20px;
+  margin: 30px;
+  font-family: calibri;
+
+ }
+
+.navigation li a:link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navigation li a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+/*------------------END of navigation------------------*/
+
+
+
+
+/*------------------General content part for Home page------------------*/
+.feature {
+  height: 600px;
+  background: url(./Images/whitemount.jpg);
+  background-size: cover;
+}
+
+.bottompage {
+  height: 600px;
+  background: url(./Images/redmount2.jpg);
+  background-size: cover;
+
+}
+
+.content {
+  height: 600px;
+  background: url(./Images/img-3.jpg);
+  background-size: cover;
+
+}
+
+.content p {
+  margin-top: 50px;
+
+}
+
+.content h1 {
+  margin-top: 50px;
+}
+
+/*------------------END of content part------------------*/
+
+
+
+/*------------------Jumbotron stuff here------------------*/
+.jumbotron {
+  background-color: hsla(244, 24%, 8%, 1);
+  margin: 0;
+  text-align: center;
+}
+
+.jumbotron h2 {
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  font-size: 40px;
+   color: #fff;
+   text-align: center;
+}
+
+/*------------------END of Jumbotron------------------*/
+
+
+
+/*------------------jquery welcome message------------------*/
+#welcome {
+  color: #fff;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  font-family: calibri;
+  font-size: 60px;
+  text-align: center;
+
+}
+
+#welcome2 {
+  color: #fff;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  font-family: calibri;
+  font-size: 60px;
+  text-align: center;
+  
+}
+
+#welcome3 {
+  color: #fff;
+  text-shadow: 0 2px 3px rgba(0,0,0,.4);
+  font-family: calibri;
+  font-size: 60px;
+  text-align: center;
+  
+}
+/*------------------END of welcome message------------------*/
+
+
+
+/* Footer section */
+
+.footer {
+  height: 40px;
+  background-color: #000;
+  background-size: cover;
+  text-align: center;
+}
+
+
+
+
+
+
+/*--- [THE FOLLOWING SECTION IS THE CSS FOR ALL THE OTHER PAGES]--- */
+
+
+
+/*------------------About elements------------------*/
+
+.AboutSection {
+   height: 500px;
+  background: url(./Images/img-3.jpg);
+  background-size: cover;
+
+}
+
+#backgroundAbout {
+   height: 500px;
+  background: url(./Images/NYC.jpg);
+  background-size: cover;
+
+}
+
+.myself {
+  margin-top: 20px;
+  margin-left: 300px;
+}
+/*------------------END About elements------------------*/
+
+
+
+
+
+/*------------------Portfolio elements------------------*/
+
+#backgroundPortfolio {
+   height: 880px;
+  background: url(./Images/img-6.jpg);
+  background-size: cover;
+
+}
+
+#gallery
+{
+  position: relative;
+  left: 80px;
+  width: 800px;
+  height: 800px;
+}
+
+#Thumbnails
+{
+  padding: 0;
+  list-style: none;
+}
+
+#Thumbnails li
+{
+  display: inline;
+}
+
+
+#Thumbnails li img:hover
+{
+  opacity: 0.5;
+  transition: .3s;
+}
+
+#Thumbnails img
+{
+  width: 180px;
+  height: auto;
+  margin: 5px;
+}
+
+/*------------------END Portfolio elements------------------*/
+
+
+
+
+/*------------------Contact elements------------------*/
+
+.ContactHeadings {
+  height: 500px;
+  background: url(./Images/img-3.jpg);
+  background-size: cover;
+
+}
+
+#backgroundContact {
+   height: 500px;
+  background: url(./Images/redmount2.jpg);
+  background-size: cover;
+
+}
+
+/*------------------END of contact elements------------------*/
+
+
+
+/*------------------Making the form look a little bit better-------------------------*/
+.form
+{
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 14px;
+ margin-left: 200px;
+}
+/*------------------END of form-------------------------*/
+
